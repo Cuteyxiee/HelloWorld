@@ -9,7 +9,7 @@ public class ApiTest {
 
     @Test
     public void greeting() {
-        String message = "Hell World";
+        String message = "Hello World";
         assertEquals(message , Api.Message());
     }
 }
