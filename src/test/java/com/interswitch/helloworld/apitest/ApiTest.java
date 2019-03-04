@@ -8,8 +8,14 @@ import static org.junit.Assert.*;
 public class ApiTest {
 
     @Test
-    public void greeting() {
+    public void greetingpass() {
         String message = "Hello World";
+        assertEquals(message , Api.Message());
+    }
+
+    @Test
+    public void greetingfail() {
+        String message = "HelloWorld";
         assertEquals(message , Api.Message());
     }
 }
