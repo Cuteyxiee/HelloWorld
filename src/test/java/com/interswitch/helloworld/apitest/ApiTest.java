@@ -12,10 +12,4 @@ public class ApiTest {
         String message = "Hello World";
         assertEquals(message , Api.Message());
     }
-
-    @Test
-    public void greetingfail() {
-        String message = "HelloWorld";
-        assertEquals(message , Api.Message());
-    }
 }
